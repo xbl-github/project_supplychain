@@ -1,0 +1,15 @@
+// for test network deployment via infura
+const HDWalletProvider = require('truffle-hdwallet-provider');
+const infuraKey = "fc798e8c974644f1bb97f6d89d839981";
+const mnemonic = "toe cement gas ethics napkin robot mask mix bracket gloom soccer leopard";
+
+
+module.exports = {
+  networks: {
+    development: {
+      host: "127.0.0.1",
+      port: 8545,
+      network_id: "*" // Match any network id
+    }
+  }
+};
